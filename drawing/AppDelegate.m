@@ -3,7 +3,6 @@
 //  drawing
 //
 //  Created by Htain Lin Shwe on 27/3/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import "AppDelegate.h"

@@ -148,6 +148,7 @@ CGPoint midPoint(CGPoint p1, CGPoint p2)
   }
   
   
+  //size of stroke
   if(sizeSegment.selectedSegmentIndex ==small_size)
   {
     CGContextSetLineWidth(context, 2.0);
