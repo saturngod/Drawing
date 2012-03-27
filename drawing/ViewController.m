@@ -78,7 +78,6 @@ CGPoint midPoint(CGPoint p1, CGPoint p2)
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
   
-  NSLog(@"Touch Began");
   UITouch *touch = [touches anyObject];
   
   previousPoint1 = [touch previousLocationInView:self.view];
@@ -91,8 +90,6 @@ CGPoint midPoint(CGPoint p1, CGPoint p2)
 
 -(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
-  
-  NSLog(@"Touch Move");
   
   UITouch *touch = [touches anyObject];
   
@@ -139,12 +136,6 @@ CGPoint midPoint(CGPoint p1, CGPoint p2)
   {
     CGContextSetBlendMode(context,kCGBlendModeClear);
    
-  }
-  else {
-    
-    CGContextSetBlendMode(context,kCGBlendModeColor);
-    
-    
   }
   
   
